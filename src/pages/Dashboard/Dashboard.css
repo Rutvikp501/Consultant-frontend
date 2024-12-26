@@ -1,0 +1,27 @@
+.leadCards > div:nth-child(4n+1){
+    background-color: #59509B;
+    color: white;
+}
+.leadCards > div:nth-child(4n+2){
+    background: linear-gradient(90deg, #f3c51f43, #f88d293b)
+}
+.leadCards > div:nth-child(4n+2) .statusCards{
+    background: linear-gradient(90deg, #f3c51f43, #f88d293b);
+    border: 1px solid #EFC28C;
+}
+.leadCards > div:nth-child(4n+3){
+    background: linear-gradient(90deg, #d9eada3f, #c1ddc33f)
+}
+.leadCards > div:nth-child(4n+3) .statusCards{
+    background: linear-gradient(90deg, #d9eada3f, #c1ddc33f);
+    border: 1px solid #ADDBB0;
+}
+.leadCards > div:nth-child(4n+4){
+    background: linear-gradient(90deg, rgba(243, 196, 31,.25), rgba(248, 140, 41,.25))
+}
+.tabBarClass{
+background-color: red;
+}
+.tabItemClass{
+background-color: yellow;
+}

@@ -1,0 +1,50 @@
+:root{
+  --black-color:#353535;
+  --blue-color:#1B889A;
+  --blue1-color:#5EA3F4;
+  --blue2-color:#3883f3;
+  --white-color:#F5F5F5;
+  --yellow-color:#fffdf1;
+  --yellow1-color:#ffe760;
+  --yellow2-color:#c0a821;
+  --green-color:#f2fff1;
+  --green1-color:#28ce1c53;
+  --green2-color:#299022;
+  --red-color:#fff1f2;
+  --red1-color:#cd28334b;
+  --red2-color:#cd2833;
+  --gray-color:#B2B1AF;
+  --gold-color:#D39A4E;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+input{
+  border: 1px solid rgba(0,0,0,0.2) !important;
+}
+input::placeholder{
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+.customFlatpicker {
+  padding: 0.5rem 1rem !important;
+  border-radius: 8px;
+  outline: 2px solid transparent;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background: transparent;
+}
+.datePickerIcon {
+  color: #1F1F1F;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0%, -50%);
+  z-index: 1;
+}
